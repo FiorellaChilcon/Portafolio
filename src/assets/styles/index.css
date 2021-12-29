@@ -3,4 +3,6 @@
 @import './Home.css';
 @import './Skills.css';
 @import './Projects.css';
+/* components */
 @import './Navbar.css';
+@import './Footer.css';
