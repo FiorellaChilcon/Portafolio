@@ -1,12 +1,26 @@
 import React from 'react'
+import github from '../assets/images/github-black.svg'
+import play from '../assets/images/play.svg'
 
 export default function ProjectCard(props) {
-  const { picture, name, link } = props;
+  const { picture, name, link, repo, stack } = props;
 
   return (
-    <a className='project-card' href={link}>
+    <div className='project-card'>
       <img src={picture} alt={name} />
       <h1>{name}</h1>
-    </a>
+      <div className='project-card-info'>
+        <h1>{name}</h1>
+        <span>{stack}</span>
+        <div>
+          <a href={repo} target='_blank' rel='noreferrer'>
+            <img src={github} alt='github'/>
+          </a>
+          <a href={link} target='_blank' rel='noreferrer'>
+            <img src={play} alt='play'/>
+          </a>
+        </div>
+      </div>
+    </div>
   )
 }

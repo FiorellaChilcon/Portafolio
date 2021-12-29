@@ -12,21 +12,29 @@ export default function Projects() {
        picture={joinApp}
        name='JOIN - Social Network'
        link='https://join-network.firebaseapp.com/'
+       repo='https://github.com/FiorellaChilcon/Join-network'
+       stack='React hooks - Firebase'
       />
       <ProyectCard
        picture={scheduleTweets}
        name='Schedule Tweets - Web app'
        link='https://app-scheduled-tweets.herokuapp.com/'
+       repo='https://github.com/FiorellaChilcon/scheduled-tweets'
+       stack='Ruby on Rails - PostgreSQL - Twitter API'
       />
       <ProyectCard
        picture={burgerQueen}
        name='Burger Queen - API'
        link='https://github.com/FiorellaChilcon/LIM012-fe-burger-queen-api'
+       repo='https://github.com/FiorellaChilcon/LIM012-fe-burger-queen-api'
+       stack='Express.js -  Mongo DB - Docker'
       />
       <ProyectCard
        picture={mdLinks}
        name='MD Links - Library'
-       link=''
+       link='https://www.npmjs.com/package/markdown-links-analyzer'
+       repo='https://github.com/FiorellaChilcon/LIM012-fe-md-links'
+       stack='Node.js - NPM'
       />
     </div>
   )
