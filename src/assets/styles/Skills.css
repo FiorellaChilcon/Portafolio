@@ -1,0 +1,90 @@
+.skill-container, .project-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.skill-section {
+  width: 80%;
+  max-width: 850px;
+  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.skill-section:hover {
+  border: 1px solid #5E44F9;
+  box-shadow: none;
+}
+
+.skill-section:hover .line {
+  box-shadow: 0 0 0 1px rgb(55 42 255 / 22%);
+}
+
+.skill-subsection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.line {
+  width: 90%;
+  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+  margin: 20px 0;
+}
+
+.skill-child {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.skill-child span {
+  line-height: 30px;
+}
+
+.skill-child img {
+  margin-bottom: 15px;
+}
+
+.skill-container .skill-wrapper:first-child .skill-child img {
+  height: 40px;
+  width: 45px;
+}
+
+.skill-container .skill-wrapper:last-child .skill-child img {
+  height: 55px;
+}
+
+@media screen and (max-width: 750px) {
+  .skill-section {
+    padding: 15px;
+    width: 90%;
+  }
+
+  .skill-child {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .line {
+    display: none;
+  }
+}

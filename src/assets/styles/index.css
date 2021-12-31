@@ -6,3 +6,5 @@
 /* components */
 @import './Navbar.css';
 @import './Footer.css';
+/* utils */
+@import './utils.css';
