@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function SkillItem(props) {
   const { skill } = props;
@@ -20,7 +20,7 @@ export default function SkillsSection(props) {
         {title}
       </div>
       <div className='divider'></div>
-      <div className='skill-section'>
+      <div className='skill-section scroll-element'>
         <div className='skill-subsection'>
           {skills.slice(0, 3).map((skill, i) => <SkillItem key={i} skill={skill}/> )}
         </div>

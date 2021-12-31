@@ -1,9 +1,9 @@
 import React from 'react'
 import github from '../assets/images/github.svg'
 import linkedin from '../assets/images/linkedin.svg'
-import phone from '../assets/images/phone.svg'
-import email from '../assets/images/email.svg'
-import peruFlag from '../assets/images/peru-flag.png'
+import phone from '../assets/images/phone.svg';
+import email from '../assets/images/email.svg';
+import peruFlag from '../assets/images/peru-flag.png';
 
 export default function Footer() {
   return (

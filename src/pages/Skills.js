@@ -1,15 +1,15 @@
-import React from 'react'
-import SkillsSection from '../components/SkillsSection'
-import code from '../assets/images/code.svg'
-import database from '../assets/images/database.svg'
-import styles from '../assets/images/styles.png'
-import languages from '../assets/images/languages.svg'
-import analytics from '../assets/images/analytics.svg'
-import creativity from '../assets/images/creativity.svg'
-import communication from '../assets/images/communication.svg'
-import problemSolving from '../assets/images/problem-solving.svg'
-import teamWork from '../assets/images/team-work.svg'
-import adaptability from '../assets/images/adaptability.png'
+import React from 'react';
+import SkillsSection from '../components/SkillsSection';
+import code from '../assets/images/code.svg';
+import database from '../assets/images/database.svg';
+import styles from '../assets/images/styles.png';
+import languages from '../assets/images/languages.svg';
+import analytics from '../assets/images/analytics.svg';
+import creativity from '../assets/images/creativity.svg';
+import communication from '../assets/images/communication.svg';
+import problemSolving from '../assets/images/problem-solving.svg';
+import teamWork from '../assets/images/team-work.svg';
+import adaptability from '../assets/images/adaptability.png';
 
 const hardSkills = [
   {

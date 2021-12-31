@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import ProyectCard from '../components/ProjectCard';
-import burgerQueen from '../assets/images/burger-queen.png'
-import mdLinks from '../assets/images/md-links.png'
-import scheduleTweets from '../assets/images/schedule-tweets.png'
-import joinApp from '../assets/images/join-app.png'
+import burgerQueen from '../assets/images/burger-queen.png';
+import mdLinks from '../assets/images/md-links.png';
+import scheduleTweets from '../assets/images/schedule-tweets.png';
+import joinApp from '../assets/images/join-app.png';
 
 export default function Projects() {
   return (

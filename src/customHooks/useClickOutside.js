@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react';
 
 export default function useClickOutside(isOpen, close) {
   const node = useRef(null);

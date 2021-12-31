@@ -1,8 +1,8 @@
-import React from 'react'
-import me from '../assets/images/me.jpeg'
-import jsImg from '../assets/images/js.png'
-import cssImg from '../assets/images/css.png'
-import htmlImg from '../assets/images/html.png'
+import React from 'react';
+import me from '../assets/images/me.jpeg';
+import jsImg from '../assets/images/js.png';
+import cssImg from '../assets/images/css.png';
+import htmlImg from '../assets/images/html.png';
 
 export default function Home() {
   return (

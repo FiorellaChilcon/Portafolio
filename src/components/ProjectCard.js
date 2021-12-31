@@ -1,12 +1,12 @@
-import React from 'react'
-import github from '../assets/images/github.svg'
-import play from '../assets/images/play.svg'
+import React from 'react';
+import github from '../assets/images/github.svg';
+import play from '../assets/images/play.svg';
 
 export default function ProjectCard(props) {
   const { picture, name, link, repo, stack } = props;
 
   return (
-    <div className='project-card'>
+    <div className='project-card scroll-element'>
       <img src={picture} alt={name} />
       <h1>{name}</h1>
       <div className='project-card-info'>
