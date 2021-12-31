@@ -39,7 +39,12 @@ footer div a {
 
 footer > a img {
   height: 15px;
-  margin-right: 10px;
+  margin: 0 10px;
+}
+
+footer .flag {
+  border-radius: 3px;
+  border: 1px solid rgb(241, 241, 241);
 }
 
 footer div {
