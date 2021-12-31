@@ -19,7 +19,7 @@
   box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
   width: 410px;
   height: 260px;
-  margin: 15px 10px;
+  margin: 20px;
   transition: 0.5s;
   cursor: pointer;
 }
