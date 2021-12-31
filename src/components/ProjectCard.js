@@ -1,5 +1,5 @@
 import React from 'react'
-import github from '../assets/images/github-black.svg'
+import github from '../assets/images/github.svg'
 import play from '../assets/images/play.svg'
 
 export default function ProjectCard(props) {

@@ -1,12 +1,33 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
+import menu from '../assets/images/menu.png';
+import useClickOutside from '../customHooks/useClickOutside';
 
 export default function Navbar() {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu((prev) => !prev)
+    menuLinks.current.classList.toggle('flex');
+  }
+
+  const closeMenu = () => {
+    setShowMenu(false)
+    menuLinks.current.classList.remove('flex');
+
+  }
+  const [menuLinks, trigger] = useClickOutside(showMenu, closeMenu);
+
   return (
     <nav>
-      <NavLink to='/'>Home</NavLink>
-      <NavLink to='/skills'>Skills</NavLink>
-      <NavLink to='/projects'>Projects</NavLink>
+      <button ref={trigger} onClick={toggleMenu}className='menu-btn'>
+        <img src={menu} alt={menu}/>
+      </button>
+      <div ref={menuLinks}>
+        <a href='#about-me' onClick={closeMenu}>Fiorella Chilcon</a>
+        <a href='#skills' onClick={closeMenu}>Skills</a>
+        <a href='#projects' onClick={closeMenu}>Projects</a>
+        <a href='#contact' onClick={closeMenu}>Contact</a>
+      </div>
     </nav>
   )
 }

@@ -6,8 +6,8 @@ import email from '../assets/images/email.svg'
 
 export default function Footer() {
   return (
-    <footer>
-      <h3>LET'S GET IN CONTACT</h3>
+    <footer id='contact'>
+      <h3>LET'S GET IN CONTACT!</h3>
       <a href='mailto:fiorella_chilcon@outlook.com'>
         <img src={email} alt='email'/>
         fiorella_chilcon@outlook.com

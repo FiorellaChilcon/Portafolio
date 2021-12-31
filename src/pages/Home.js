@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className='home-container'>
       <div className='me-container'>
-        <div className='info'>
+        <div className='info' id='about-me'>
           <h1>Hey, I’m Fiorella 👋</h1>
           <div className='intro'>
             I’m a  Junior full stack developer, my passion is programming
