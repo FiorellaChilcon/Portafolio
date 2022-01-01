@@ -25,12 +25,7 @@
 }
 
 .skill-section:hover {
-  border: 1px solid #5E44F9;
-  box-shadow: none;
-}
-
-.skill-section:hover .line {
-  box-shadow: 0 0 0 1px rgb(55 42 255 / 22%);
+  box-shadow: 0 5px 5px 0 rgba(128, 128, 128, 0.5), 0 0 0 1px #e9edf1;
 }
 
 .skill-subsection {

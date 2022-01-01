@@ -1,4 +1,5 @@
 import React from 'react';
+import SlideInAnimation from '../components/SlideInAnimation';
 
 function SkillItem(props) {
   const { skill } = props;
@@ -20,7 +21,7 @@ export default function SkillsSection(props) {
         {title}
       </div>
       <div className='divider'></div>
-      <div className='skill-section scroll-element'>
+      <SlideInAnimation animationType='slide-right' styleClasses='skill-section'>
         <div className='skill-subsection'>
           {skills.slice(0, 3).map((skill, i) => <SkillItem key={i} skill={skill}/> )}
         </div>
@@ -28,7 +29,7 @@ export default function SkillsSection(props) {
         <div className='skill-subsection'>
           {skills.slice(3).map((skill, i) => <SkillItem key={i} skill={skill}/> )}
         </div>
-      </div>
+      </SlideInAnimation>
     </div>
   )
 }

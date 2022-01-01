@@ -8,7 +8,7 @@ import peruFlag from '../assets/images/peru-flag.png';
 export default function Footer() {
   return (
     <footer id='contact'>
-      <h3>LET'S GET IN CONTACT!</h3>
+      <h3>GET IN TOUCH!</h3>
       <a href='mailto:fiorella_chilcon@outlook.com'>
         <img src={email} alt='email'/>
         fiorella_chilcon@outlook.com

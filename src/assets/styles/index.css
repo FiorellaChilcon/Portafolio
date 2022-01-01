@@ -6,5 +6,6 @@
 /* components */
 @import './Navbar.css';
 @import './Footer.css';
+@import './SlideInAnimation.css';
 /* utils */
 @import './utils.css';

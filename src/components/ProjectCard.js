@@ -1,12 +1,13 @@
 import React from 'react';
 import github from '../assets/images/github.svg';
 import play from '../assets/images/play.svg';
+import SlideInAnimation from '../components/SlideInAnimation';
 
 export default function ProjectCard(props) {
   const { picture, name, link, repo, stack } = props;
 
   return (
-    <div className='project-card scroll-element'>
+    <SlideInAnimation animationType='fade-in-bottom' styleClasses='project-card'>
       <img src={picture} alt={name} />
       <h1>{name}</h1>
       <div className='project-card-info'>
@@ -21,6 +22,6 @@ export default function ProjectCard(props) {
           </a>
         </div>
       </div>
-    </div>
+    </SlideInAnimation>
   )
 }

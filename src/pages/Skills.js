@@ -39,7 +39,7 @@ const softSkills = [
   { img: creativity, items: ['Creativity'] },
   { img: teamWork, items: ['Team-work'] },
   { img: adaptability, items: ['Adaptability'] },
-  { img: communication, items: ['Good comunication']}
+  { img: communication, items: ['Good communication']}
 ];
 
 export default function Skills() {
