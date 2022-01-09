@@ -1,2 +1,2 @@
 ## Welcome to my Portafolio! 👋
-Click [here](https://fiorellachilcon.herokuapp.com/) to start!
+Click [here](https://github.com/FiorellaChilcon/Portafolio) to start!
