@@ -28,7 +28,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: yarn ci, build
         run: |
-          yarn ci
           yarn run build --if-present
       - name: deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
