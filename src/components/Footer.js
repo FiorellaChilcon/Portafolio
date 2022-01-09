@@ -26,7 +26,7 @@ export default function Footer() {
           <img src={linkedin} alt='linkedin'/>
         </a>
       </div>
-      <span>© All rights reserved</span>
+      <span>All Rights Reserved ©Fiorella Chilcon 2022</span>
     </footer>
   )
 }
