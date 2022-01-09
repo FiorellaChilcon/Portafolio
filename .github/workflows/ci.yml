@@ -3,10 +3,10 @@ name: Build & deploy
 on:
   push:
     branches:
-      - gh-pages-deploy
+      - main
   pull_request:
     branches:
-      - gh-pages-deploy
+      - main
 jobs:
   build:
     name: Build
@@ -40,7 +40,7 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/gh-pages-deploy'
+    if: github.ref == 'refs/heads/main'
     
     steps:
     - name: Download artifact
