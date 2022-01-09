@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
 
+:root {
+  --soft-dark-color: #4c4c4c;
+  --dark-color: #303030;
+}
+
 body {
   margin: 0;
 }
@@ -7,4 +12,9 @@ body {
 * {
   font-family: 'Open Sans', 'Roboto', sans-serif;
   box-sizing: border-box;
+  color: var(--soft-dark-color);
+}
+
+a {
+  color: var(--soft-dark-color);
 }

@@ -3,12 +3,12 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 80px;
+  height: 65px;
   background-color: rgb(253, 253, 253);
-  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
   position: fixed;
   top: 0;
   z-index: 1;
+  border-bottom: 1px solid #e6ecf8;
 }
 
 nav > div {
@@ -26,9 +26,8 @@ nav > div a:first-child {
 
 nav > div a {
   text-decoration: none;
-  color: black;
-  font-size: 16px;
-  padding: 0 40px;
+  font-size: 15px;
+  padding: 0 25px;
 }
 
 nav > div a:hover {
@@ -60,7 +59,7 @@ nav > div a:hover {
 
   nav > div {
     position: absolute;
-    bottom: -170px;
+    bottom: -155px;
     flex-direction: column;
     align-items: flex-start;
     padding: 20px 0;
@@ -70,5 +69,6 @@ nav > div a:hover {
   nav > div a {
     padding: 5px 40px;
     width: 100%;
+    font-size: 14px;
   }
 }

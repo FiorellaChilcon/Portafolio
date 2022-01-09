@@ -24,8 +24,8 @@ export default function Navbar() {
       </button>
       <div ref={menuLinks}>
         <a href='#about-me' onClick={closeMenu}>Fiorella Chilcon</a>
-        <a href='#skills' onClick={closeMenu}>Skills</a>
         <a href='#projects' onClick={closeMenu}>Projects</a>
+        <a href='#skills' onClick={closeMenu}>Skills</a>
         <a href='#contact' onClick={closeMenu}>Contact</a>
       </div>
     </nav>
