@@ -2,7 +2,7 @@
   "name": "react-portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fiorellachilcon.github.io/Portafolio",
+  "homepage": "https://fiorellachilcon.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
