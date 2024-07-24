@@ -1,6 +1,7 @@
 import React from 'react';
 import me from '../assets/images/me.svg';
 import SlideInAnimation from '../components/SlideInAnimation';
+import ContactLinks from '../components/ContactLinks';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <img className="my-9 w-[272px] h-[293px]" src={me} alt="Fiorella"/>
         <h2 className="text-2xl">Frontend Developer</h2>
       </SlideInAnimation>
+      <ContactLinks />
     </div>
   )
 }

@@ -6,7 +6,7 @@ export default function AboutMe() {
     <div className="min-h-screen flex justify-center items-center flex-row gap-6 sm:gap-14 flex-wrap py-9" id="about">
       <img className="w-[272px] h-[293px]" src={me} alt="Fiorella"/>
       <SlideInAnimation animationType='fade-in-bottom'  styleClasses="w-full sm:w-1/3 sm:min-w-80 sm:p-0 p-8">
-        <h2 className="text-2xl mb-9">Hola! I’m Fiorella 👋</h2>
+        <h2 className="text-2xl mb-9 font-medium">Hola! I’m Fiorella 👋</h2>
         <p className="text-base text-justify">
           I’m a passionate front-end developer from Perú.
           My tech journey took off with a coding bootcamp, and now I’m exploring the vibrant tech scene in Australia while pursuing a Bachelor’s in IT majoring in Cybersecurity.
