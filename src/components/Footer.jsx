@@ -1,32 +1,31 @@
 import React from 'react'
-import github from '../assets/images/github.svg'
-import linkedin from '../assets/images/linkedin.svg'
-import phone from '../assets/images/phone.svg';
-import email from '../assets/images/email.svg';
-import peruFlag from '../assets/images/peru-flag.png';
+import github from '../assets/icons/github.svg'
+import linkedin from '../assets/icons/linkedin.svg'
+import phone from '../assets/icons/phone.svg';
+import email from '../assets/icons/email.svg';
+// import peruFlag from '../assets/images/peru-flag.png';
 
 export default function Footer() {
   return (
-    <footer id='contact'>
-      <h3>GET IN TOUCH!</h3>
-      <a href='mailto:fiorella_chilcon@outlook.com'>
-        <img src={email} alt='email'/>
+    <footer id='contact' className="w-full flex flex-col py-9 px-5 shadow-md items-center bg-slate-50">
+      <h3 className="text-center text-base text-softBlack-1">GET IN TOUCH!</h3>
+      <a className="text-sm p-2 flex items-center no-underline" href='mailto:fiorella_chilcon@outlook.com' target="_blank" rel="noreferrer">
+        <img className="h-4 mx-2" src={email} alt='email'/>
         fiorella_chilcon@outlook.com
       </a>
-      <a href='tel:+51923059876'>
-        <img src={phone} alt='phone'/>
-        +51 923 059 876
-        <img src={peruFlag} className='flag' alt='peru'/>
+      <a className="text-sm p-2 flex items-center no-underline" href='tel:+51406868217'>
+        <img className="h-4 mx-2" src={phone} alt='phone'/>
+        +61 4068 68217
+        {/* <img src={peruFlag} className='rounded-sm border border-slate-50' alt='peru'/> */}
       </a>
-      <div>
-        <a href='https://github.com/FiorellaChilcon'>
-          <img src={github} alt='github'/>
+      <div className="flex flex-row">
+        <a className="size-11 flex" target="_blank" href="https://github.com/FiorellaChilcon" rel="noreferrer">
+          <img className="h-6 hover:h-7 m-auto" src={github} alt='github'/>
         </a>
-        <a href='https://www.linkedin.com/in/fiorella-chilcon/'>
-          <img src={linkedin} alt='linkedin'/>
+        <a className="size-11 flex" target="_blank" href="https://www.linkedin.com/in/fiorella-chilcon/" rel="noreferrer">
+          <img className="h-6 hover:h-7 m-auto" src={linkedin} alt='linkedin'/>
         </a>
       </div>
-      <span>All Rights Reserved ©Fiorella Chilcon 2022</span>
     </footer>
   )
 }

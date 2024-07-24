@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <div className="min-h-screen flex justify-center items-center flex-col" id="projects">
       <h2 className="text-2xl mb-9">Projects</h2>
-      <div className="flex flex-wrap justify-center items-center w-9/12">
+      <div className="flex flex-wrap justify-center items-center lg:w-9/12 w-full">
         <ProjectCard
           picture={joinApp}
           name='JOIN - Social Network'

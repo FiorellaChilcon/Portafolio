@@ -1,9 +1,4 @@
 /* pages */
 @import './App.css';
-@import './Skills.css';
-@import './Projects.css';
 /* components */
-@import './Footer.css';
 @import './SlideInAnimation.css';
-/* utils */
-@import './utils.css';
