@@ -14,8 +14,10 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts start && npm run tailwind-styles-dev",
+    "tailwind-styles-dev": "npx tailwindcss -i ./src/assets/styles/App.css -o ./public/index.css --watch",
+    "tailwind-styles": "npx tailwindcss -i ./src/assets/styles/App.css -o ./public/index.css --minify",
+    "build": "npm run tailwind-styles && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -36,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "clsx": "^2.1.1",
+    "tailwindcss": "^3.4.6"
   }
 }

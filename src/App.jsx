@@ -1,18 +1,20 @@
 import React from 'react';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import Sidebar from './components/Sidebar';
+import AboutMe from './pages/AboutMe';
 import Skills from './pages/Skills';
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div className='app-body'>
-      <Navbar/>
+      <Sidebar />
       <Home/>
+      <AboutMe />
       <Projects/>
       <Skills/>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

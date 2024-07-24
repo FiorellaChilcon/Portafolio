@@ -1,25 +1,18 @@
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 
-export default function useClickOutside(isOpen, close) {
-  const node = useRef(null);
-  const triggerElement = useRef(null);
-  const clickOutside = ({ target }) => {
-    if (!node.current.contains(target) && !triggerElement.current.contains(target)) {
-      return close(false);
-    }
-  };
-
+export const useClickOutside = ({ refs, handler }) => {
   useEffect(() => {
-    if (isOpen) {
-      document.addEventListener('mousedown', clickOutside);
-    } else {
-      document.removeEventListener('mousedown', clickOutside);
-    }
+    const listener = (event) => {
+      const isOutside = refs.every(ref => !ref.current || !ref.current.contains(event.target));
+      if (isOutside) {
+        handler();
+      }
+    };
+
+    document.addEventListener('mousedown', listener);
 
     return () => {
-      document.removeEventListener('mousedown', clickOutside);
+      document.removeEventListener('mousedown', listener);
     };
-  }, [isOpen]); //eslint-disable-line
-
-  return [node, triggerElement];
-}
+  }, [refs, handler]);
+};
