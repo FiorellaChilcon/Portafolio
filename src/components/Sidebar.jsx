@@ -39,7 +39,7 @@ export default function Sidebar() {
     <button
       ref={btnRef}
       onClick={() => { setShowSidebar(prev => !prev) }}
-      className={clsx('bg-softBlue-1 fixed right-0 bottom-0 size-10 rounded-full m-4 border shadow-evenly border-gray-100 flex lg:hidden z-20 transition-all', showSidebar && 'right-24')}
+      className={clsx('bg-softBlue-1 fixed right-0 bottom-0 size-10 rounded-full m-6 border shadow-evenly border-gray-100 flex lg:hidden z-20 transition-all', showSidebar && 'right-24')}
     >
       <img className={clsx('size-4 m-auto transition-all', showSidebar && 'rotate-180')} alt="open menu" src={leftArrow} />
     </button>
