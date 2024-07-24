@@ -7,9 +7,9 @@ import joinApp from '../assets/images/join-app.png';
 
 export default function Projects() {
   return (
-    <div className="lg:min-h-screen flex py-9 justify-center items-center flex-col" id="projects">
-      <h2 className="text-2xl mb-9 font-medium">Projects</h2>
-      <div className="flex flex-wrap justify-center items-center lg:w-9/12 w-full">
+    <div className="lg:min-h-screen max-w-5xl lg:w-10/12 w-full mx-auto flex py-9 px-8 justify-center items-center flex-col" id="projects">
+      <h2 className="text-2xl mb-12 font-medium">Projects</h2>
+      <div className="flex flex-wrap justify-center items-center gap-9 w-full">
         <ProjectCard
           picture={joinApp}
           name='JOIN - Social Network'
