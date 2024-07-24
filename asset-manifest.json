@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.adb85d29.css",
-    "main.js": "/static/js/main.2dcad2c2.js",
+    "main.css": "/static/css/main.e4bd460a.css",
+    "main.js": "/static/js/main.bcaab897.js",
     "static/js/787.b3107c71.chunk.js": "/static/js/787.b3107c71.chunk.js",
     "static/media/schedule-tweets.png": "/static/media/schedule-tweets.0bdaef7ef625bc535268.png",
     "static/media/burger-queen.png": "/static/media/burger-queen.c279bd83ca145856d6c4.png",
@@ -15,12 +15,12 @@
     "static/media/phone.svg": "/static/media/phone.843c1415142808b889d8e8cb3f65acb2.svg",
     "static/media/chevron-left-solid.svg": "/static/media/chevron-left-solid.00df0b120dd8402bdf50ac788a64164c.svg",
     "static/media/play.svg": "/static/media/play.0f25bbedca1cdd77af8f3f65cc074e73.svg",
-    "main.adb85d29.css.map": "/static/css/main.adb85d29.css.map",
-    "main.2dcad2c2.js.map": "/static/js/main.2dcad2c2.js.map",
+    "main.e4bd460a.css.map": "/static/css/main.e4bd460a.css.map",
+    "main.bcaab897.js.map": "/static/js/main.bcaab897.js.map",
     "787.b3107c71.chunk.js.map": "/static/js/787.b3107c71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adb85d29.css",
-    "static/js/main.2dcad2c2.js"
+    "static/css/main.e4bd460a.css",
+    "static/js/main.bcaab897.js"
   ]
 }
