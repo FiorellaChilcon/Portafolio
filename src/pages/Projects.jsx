@@ -7,7 +7,7 @@ import joinApp from '../assets/images/join-app.png';
 
 export default function Projects() {
   return (
-    <div className="min-h-screen flex justify-center items-center flex-col" id="projects">
+    <div className="lg:min-h-screen flex py-9 justify-center items-center flex-col" id="projects">
       <h2 className="text-2xl mb-9">Projects</h2>
       <div className="flex flex-wrap justify-center items-center lg:w-9/12 w-full">
         <ProjectCard
