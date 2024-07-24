@@ -1,18 +1,16 @@
 import React from 'react';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import Skills from './pages/Skills';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Sidebar from './components/Sidebar';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
     <div className='app-body'>
-      <Navbar/>
+      <Sidebar />
       <Home/>
+      <AboutMe />
       <Projects/>
-      <Skills/>
-      <Footer/>
     </div>
   );
 }

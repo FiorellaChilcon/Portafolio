@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --soft-dark-color: #4c4c4c;
@@ -7,12 +10,22 @@
 
 body {
   margin: 0;
+  background-color: #ECF0F1;
 }
 
 * {
-  font-family: 'Open Sans', 'Roboto', sans-serif;
+  font-family: "Kodchasan", sans-serif;
   box-sizing: border-box;
+  font-weight: 300;
   color: var(--soft-dark-color);
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 300;
 }
 
 a {
