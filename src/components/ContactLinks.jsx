@@ -18,7 +18,7 @@ export default function ContactLinks() {
     <SlideInAnimation animationType="slide-left" styleClasses="flex flex-row">
       <ContactLink imgSrc={github} imgAlt="Github" link="https://github.com/FiorellaChilcon" />
       <ContactLink imgSrc={linkedin} imgAlt="Linkedin" link="https://www.linkedin.com/in/fiorella-chilcon" />
-      <ContactLink imgSrc={phone} className="!h-5 hover:!h-6" imgAlt="Mobile number" link="tel:+51406868217" />
+      <ContactLink imgSrc={phone} className="!h-5 hover:!h-6" imgAlt="Mobile number" link="tel:+61406868217" />
       <ContactLink imgSrc={email} className="!h-5 hover:!h-6" imgAlt="Email address" link="mailto:fiorella_chilcon@outlook.com" />
     </SlideInAnimation>
   );

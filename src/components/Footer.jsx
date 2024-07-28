@@ -13,7 +13,7 @@ export default function Footer() {
         <img className="h-4 mx-2" src={email} alt='email'/>
         fiorella_chilcon@outlook.com
       </a>
-      <a className="text-sm p-2 flex items-center no-underline" href="tel:+51406868217">
+      <a className="text-sm p-2 flex items-center no-underline" href="tel:+61406868217">
         <img className="h-4 mx-2" src={phone} alt='phone'/>
         +61 4068 68217
         {/* <img src={peruFlag} className='rounded-sm border border-slate-50' alt='peru'/> */}
